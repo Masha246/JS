@@ -12,16 +12,19 @@
  9. Строка не должна быть пустой
      
 const validateString = function(inputString) {
-if (inputString.trim() === "") {
+if (inputString.trim() === "")
+{
         console.log("Ошибка: Строка не должна быть пустой.");
         return;
     }
     
-   if (inputString.length < 5) {
+   if (inputString.length < 5)
+   {
         console.log("Ошибка: Минимум 5 символов в строке.");
         return;
     }
-    if (inputString.length > 64) {
+    if (inputString.length > 64) 
+    {
         console.log("Ошибка: Максимум 64 символа в строке.");
         return;
     }
@@ -29,15 +32,18 @@ if (inputString.trim() === "") {
         console.log("Ошибка: В строке должны быть буквы.");
         return;
     }
-    if (!/[A-Z]/.test(inputString)) {
+    if (!/[A-Z]/.test(inputString)) 
+    {
         console.log("Ошибка: Должна быть хотя бы одна буква в верхнем регистре.");
         return;
     }
-     if (!/\d/.test(inputString)) {
+     if (!/\d/.test(inputString))
+     {
         console.log("Ошибка: Должна быть хотя бы одна цифра.");
         return;
     }
-    if (!/@/.test(inputString)) {
+    if (!/@/.test(inputString))
+    {
         console.log("Ошибка: Должна быть хотя бы одна '@'.");
         return;
     }
