@@ -91,6 +91,7 @@ const checkAge = function(age_1, age_2, age_3) {
   }else {
     console.log("Technical work.");
 };
+
 checkAge(17); 
 checkAge(18); 
 checkAge(61);
