@@ -55,22 +55,27 @@ item_7_type = typeof item_7;
  27. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
  
 console.log("item_7 == " + item_7 + ", item_7_type == " + item_7_type);
+
  28. Создать переменную “age_1” и присвоить ей значение 10
- 29. Создать переменную “age_2” и присвоить ей значение 18
- 30. Создать переменную “age_3” и присвоить ей значение 60
+     
+ 30. Создать переменную “age_2” и присвоить ей значение 18
+     
+ 32. Создать переменную “age_3” и присвоить ей значение 60
+     
 let age_1 = 10;
 let age_2 = 18;
 let age_3 = 60;
- 31. Создать if в котором будите проверять значение переменной age_1
- 32. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
+
+ 34. Создать if в котором будите проверять значение переменной age_1
+ 35. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
 if (age_1 < age_2) {console.log("You don't have access cause your age is " + age_1 + ". It's less than " + age_2);}
- 33. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
+ 36. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
 
 
- 34. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
+ 37. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 
 
- 35. Иначе выводите “Technical work”.
+ 38. Иначе выводите “Technical work”.
 
 
 if (age_1 < age_2) {
