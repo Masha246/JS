@@ -10,7 +10,6 @@
  7. Должна быть хотя бы одна цифра
  8. Должна быть хотя бы одна @
  9. Строка не должна быть пустой
-     
 const validateString = function(inputString) {
 if (inputString.trim() === "")
 {
