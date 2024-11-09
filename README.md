@@ -94,6 +94,7 @@ const checkAge = function(age_1, age_2, age_3) {
 checkAge(17); 
 checkAge(18); 
 checkAge(61);
+
 2*:
 Преобразовать задание 1* таким образом, чтобы первым делом в функции проверялся тип данных. И если он не Number - кидалась ошибка.
 const checkAge = function age(age_1, age_2, age_3) {
