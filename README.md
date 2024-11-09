@@ -75,9 +75,8 @@ if (age_1 < age_2) {
 } else if (age_1 > age_3) {
     console.log("Keep calm and look Culture channel.");
 } else {
-    console.log("Technical work.");
-}
-1*:
+    console.log("Technical work.");}
+1*
 Преобразовать написанный код в 26-33 пунктах в функцию, принимающую на вход возраст.
 Пример: const checkAge = function(age) {
 Ваши преобразования}
