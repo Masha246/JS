@@ -40,32 +40,37 @@ let item_6_type;
  20. Присвоить переменной item_6_type тип переменной item_6
 item_6 = 15;
 item_6_type = typeof item_6;
- 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——  
+ 21. Вывести в консоль тип данных item_6 в виде ——  “item_6 == ”  item_6,  “item_6_type == ”  item_6_type ——
+      
 console.log("item_6 == " + item_6 + ", item_6_type == " + item_6_type);
- 22. Создать переменную item_7 и в ней преобразовать item_6 в String.
+ 23. Создать переменную item_7 и в ней преобразовать item_6 в String.
+ 
 let item_7 = String(item_6);
- 23. Создать переменную item_7_type
- 24. Присвоить переменной item_7_type тип переменной item_7
+
+ 24. Создать переменную item_7_type
+ 25. Присвоить переменной item_7_type тип переменной item_7
+     
 let item_7_type;
 item_7_type = typeof item_7;
- 25. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
+ 27. Вывести в консоль тип данных item_7 в виде ——  “item_7 == ”  item_7,  “item_7_type == ”  item_7_type ——  
+ 
 console.log("item_7 == " + item_7 + ", item_7_type == " + item_7_type);
- 26. Создать переменную “age_1” и присвоить ей значение 10
- 27. Создать переменную “age_2” и присвоить ей значение 18
- 28. Создать переменную “age_3” и присвоить ей значение 60
+ 28. Создать переменную “age_1” и присвоить ей значение 10
+ 29. Создать переменную “age_2” и присвоить ей значение 18
+ 30. Создать переменную “age_3” и присвоить ей значение 60
 let age_1 = 10;
 let age_2 = 18;
 let age_3 = 60;
- 29. Создать if в котором будите проверять значение переменной age_1
- 30. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
+ 31. Создать if в котором будите проверять значение переменной age_1
+ 32. Если age_1 < age_2, вывести в консоль “You don’t have access cause your age is ” + age_1 + “ It’s less then ”
 if (age_1 < age_2) {console.log("You don't have access cause your age is " + age_1 + ". It's less than " + age_2);}
- 31. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
+ 33. Если age_1 >=  age_2 и age_1 <  age_3, вывести в консоль “Welcome  !”
 
 
- 32. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
+ 34. Если age_1  > age_3, вывести в консоль “Keep calm and look Culture channel”.
 
 
- 33. Иначе выводите “Technical work”.
+ 35. Иначе выводите “Technical work”.
 
 
 if (age_1 < age_2) {
