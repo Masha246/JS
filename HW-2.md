@@ -10,11 +10,13 @@
  7. Должна быть хотя бы одна цифра
  8. Должна быть хотя бы одна @
  9. Строка не должна быть пустой
+     
 const validateString = function(inputString) {
 if (inputString.trim() === "") {
         console.log("Ошибка: Строка не должна быть пустой.");
         return;
     }
+    
    if (inputString.length < 5) {
         console.log("Ошибка: Минимум 5 символов в строке.");
         return;
