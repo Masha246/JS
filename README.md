@@ -116,6 +116,7 @@ const checkAge = function age(age_1, age_2, age_3) {
 
  3**:
 Преобразовать 2* таким образом, чтобы значение '2' (строка в которой лежит ТОЛЬКО ЦИФРА) пропускалось, преобразовываясь в number
+
 const checkAge = function(age) {
 const age_2 = 18;
 const age_3 = 60;
